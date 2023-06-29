@@ -7,7 +7,7 @@
     "label": "VSCode",
     "position": false,
     "index": "",
-    "icon": "https://cdn.jsdelivr.net/gh/jjv360/casaos-apps@master/apps/vscode/icon.png",
+    "icon": "https://cdn.jsdelivr.net/gh/jjv360/casaos-apps/apps/vscode/icon.png",
     "network_model": "bridge",
     "image": "lscr.io/linuxserver/code-server:latest",
     "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
@@ -24,7 +24,7 @@
     "volumes": [
         {
             "container": "/config",
-            "host": "/DATA/AppData/code-server/config",
+            "host": "/DATA/AppData/vscode/config",
             "type": 0,
             "desc": ""
         },
@@ -68,7 +68,7 @@
         },
         {
             "container": "PROXY_DOMAIN",
-            "host": "code-server.my.domain",
+            "host": "vscode.my.domain",
             "desc": "",
             "type": 0
         },
