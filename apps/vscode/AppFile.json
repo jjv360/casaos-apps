@@ -24,7 +24,7 @@
     "volumes": [
         {
             "container": "/config",
-            "host": "/DATA/AppData/vscode/config",
+            "host": "/DATA/AppData/VSCode/config",
             "type": 0,
             "desc": ""
         },
